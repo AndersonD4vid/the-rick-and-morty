@@ -1,5 +1,7 @@
 # Vite+React - Consumindo API do The Rick and Morty
 
+# Live demo: https://the-rick-and-morty-seven.vercel.app/
+
 # Conceitos tratados nesse projeto
  - map
  - slice
