@@ -1,0 +1,98 @@
+.listagemItens {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 15px;
+   margin-top: 30px;
+   margin-bottom: 40px;
+}
+
+.titulo {
+   font-size: 2rem;
+   color: white;
+   word-wrap: break-word;
+   margin: 15px;
+   text-align: center;
+}
+
+.card {
+   width: 45%;
+   display: flex;
+   flex-direction: row;
+   background-color: #333;
+   border-radius: 10px;
+}
+
+.info {
+   display: flex;
+   flex-direction: column;
+   padding: 20px;
+}
+
+.info strong {
+   font-size: 1.3em;
+   font-weight: bold;
+   color: burlywood;
+}
+
+.dot,
+.alive,
+.dead {
+   width: 10px;
+   height: 10px;
+   border-radius: 10px;
+}
+
+.dead {
+   background-color: red;
+}
+
+.alive {
+   background-color: green;
+}
+
+.image {
+   width: 200px;
+   object-fit: cover;
+   height: 100%;
+   border-radius: 10px;
+}
+
+.status {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 5px;
+   color: white;
+   margin-bottom: 8px;
+   margin-top: 8px;
+}
+
+.tituloItem {
+   font-size: 15px;
+   color: #f5f5f5;
+   margin-bottom: 10px;
+   word-wrap: break-word;
+}
+
+.footer {
+   padding: 15px;
+   background-color: #333;
+   color: white;
+   width: 100%;
+   text-align: center;
+}
+
+
+@media screen and (max-width: 800px) {
+   .listagemItens {
+      flex-direction: column;
+      width: 90%;
+   }
+
+   .card {
+      width: 100%;
+   }
+}
